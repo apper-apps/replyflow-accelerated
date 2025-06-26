@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import ConversationList from "@/components/organisms/ConversationList";
 import ChatView from "@/components/organisms/ChatView";
 import conversationService from "@/services/api/conversationService";
-import ApperIcon from "@/components/atoms/ApperIcon";
+import ApperIcon from "@/components/ApperIcon";
 const Inbox = () => {
   const [selectedConversation, setSelectedConversation] = useState(null);
   const [isMobileView, setIsMobileView] = useState(false);
