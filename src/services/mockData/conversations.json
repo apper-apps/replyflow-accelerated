@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "platform": "whatsapp",
+    "customerId": "1",
+    "customerName": "Sarah Chen",
+    "status": "open",
+    "priority": 3,
+    "unreadCount": 2,
+    "lastMessageTime": "2024-01-15T14:30:00Z",
+    "messages": [
+      {
+        "Id": 1,
+        "sender": "customer",
+        "content": "Hi, I'm having trouble with my recent order. The tracking shows delivered but I haven't received anything.",
+        "timestamp": "2024-01-15T14:25:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "negative"
+      },
+      {
+        "Id": 2,
+        "sender": "customer",
+        "content": "Order number is #RF-2024-001. Can you please help me check what happened?",
+        "timestamp": "2024-01-15T14:30:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "platform": "facebook",
+    "customerId": "2",
+    "customerName": "Mike Rodriguez",
+    "status": "pending",
+    "priority": 2,
+    "unreadCount": 1,
+    "lastMessageTime": "2024-01-15T13:45:00Z",
+    "messages": [
+      {
+        "Id": 3,
+        "sender": "customer",
+        "content": "Love the new product! When will you have more colors available?",
+        "timestamp": "2024-01-15T13:45:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "positive"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "platform": "instagram",
+    "customerId": "3",
+    "customerName": "Emma Wilson",
+    "status": "resolved",
+    "priority": 1,
+    "unreadCount": 0,
+    "lastMessageTime": "2024-01-15T12:20:00Z",
+    "messages": [
+      {
+        "Id": 4,
+        "sender": "customer",
+        "content": "Thank you so much for the quick resolution! Great customer service 👏",
+        "timestamp": "2024-01-15T12:15:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "positive"
+      },
+      {
+        "Id": 5,
+        "sender": "agent",
+        "content": "You're very welcome! We're always happy to help. Thank you for choosing us! 😊",
+        "timestamp": "2024-01-15T12:20:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "positive"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "platform": "twitter",
+    "customerId": "4",
+    "customerName": "Alex Thompson",
+    "status": "open",
+    "priority": 3,
+    "unreadCount": 3,
+    "lastMessageTime": "2024-01-15T15:10:00Z",
+    "messages": [
+      {
+        "Id": 6,
+        "sender": "customer",
+        "content": "@ReplyFlow Your website is down! I can't access my account.",
+        "timestamp": "2024-01-15T15:00:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "negative"
+      },
+      {
+        "Id": 7,
+        "sender": "customer",
+        "content": "This is urgent - I need to access my subscription details ASAP",
+        "timestamp": "2024-01-15T15:05:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "negative"
+      },
+      {
+        "Id": 8,
+        "sender": "customer",
+        "content": "Still waiting for a response... 🤔",
+        "timestamp": "2024-01-15T15:10:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "negative"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "platform": "whatsapp",
+    "customerId": "5",
+    "customerName": "Lisa Park",
+    "status": "pending",
+    "priority": 1,
+    "unreadCount": 1,
+    "lastMessageTime": "2024-01-15T11:30:00Z",
+    "messages": [
+      {
+        "Id": 9,
+        "sender": "customer",
+        "content": "Hi! Can you tell me more about your premium features? I'm considering upgrading.",
+        "timestamp": "2024-01-15T11:30:00Z",
+        "isAiSuggestion": false,
+        "sentiment": "positive"
+      }
+    ]
+  }
+]
